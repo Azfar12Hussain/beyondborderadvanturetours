@@ -1,13 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
-
 import { supabase } from '@/lib/supabase';
+
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: { id: string } }
 ) {
   try {
-    const { id: idString } = await params;
-    const id = parseInt(idString);
+    const id = parseInt(params.id);
+
     if (isNaN(id)) {
       return NextResponse.json(
         { error: 'Invalid booking ID' },
@@ -21,7 +21,6 @@ export async function DELETE(
       .eq('id', id);
 
     if (error) {
-      console.error('Supabase error:', error);
       return NextResponse.json(
         { error: 'Failed to delete booking' },
         { status: 500 }
@@ -32,8 +31,7 @@ export async function DELETE(
       { message: 'Booking deleted successfully' },
       { status: 200 }
     );
-  } catch (error) {
-    console.error('Delete error:', error);
+  } catch {
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }
@@ -43,11 +41,11 @@ export async function DELETE(
 
 export async function PUT(
   request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
+  { params }: { params: { id: string } }
 ) {
   try {
-    const { id: idString } = await params;
-    const id = parseInt(idString);
+    const id = parseInt(params.id);
+
     if (isNaN(id)) {
       return NextResponse.json(
         { error: 'Invalid booking ID' },
@@ -56,9 +54,16 @@ export async function PUT(
     }
 
     const body = await request.json();
-    const { name, email, phone, tour_slug, travel_dates, group_size, special_requests } = body;
+    const {
+      name,
+      email,
+      phone,
+      tour_slug,
+      travel_dates,
+      group_size,
+      special_requests
+    } = body;
 
-    // Validate required fields
     if (!name || !email || !tour_slug) {
       return NextResponse.json(
         { error: 'Name, email, and tour selection are required' },
@@ -82,7 +87,6 @@ export async function PUT(
       .single();
 
     if (error) {
-      console.error('Supabase error:', error);
       return NextResponse.json(
         { error: 'Failed to update booking' },
         { status: 500 }
@@ -93,8 +97,7 @@ export async function PUT(
       { message: 'Booking updated successfully', data },
       { status: 200 }
     );
-  } catch (error) {
-    console.error('Update error:', error);
+  } catch {
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }

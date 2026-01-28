@@ -40,9 +40,9 @@ export default function Footer() {
           <h3 className="text-base sm:text-lg font-semibold mb-4 tracking-wide">Top Destinations</h3>
           <ul className="space-y-1 sm:space-y-2 text-xs sm:text-sm opacity-90">
             {[
-              "Fairy Meadows", "Hunza Valley", ,
-               "Skardu Valley", "Mohenjodaro", "Swat Valley", "Lahore City", ,
-              "Naran Valley", "Chitral Valley", "Ghizer Valley", 
+              "Fairy Meadows", "Hunza Valley",
+               "Skardu Valley", "Mohenjodaro", "Swat Valley", "Lahore City",
+              "Naran Valley", "Chitral Valley", "Ghizer Valley",
             ].map((item, i) => (
               <li key={i} className="hover:text-gray-300 cursor-pointer">{item}</li>
             ))}

@@ -138,13 +138,15 @@ export default function AboutPage() {
 /* ================= TEAM DATA ================= */
 const team = [
   {
-    name: "Hassanain Shah",
+    id: 1,
+    name: "Hassnain Shah",
     role: "Founder",
     image: "/asset/team/ceo.jpeg",
     description:
       "Visionary leader and travel expert with deep roots in Northern Pakistan tourism.",
   },
   {
+    id: 2,
     name: "Safdar Shah",
     role: "Managing Director",
     image: "/asset/team/pic2.jpeg",
@@ -152,18 +154,22 @@ const team = [
       "Oversees operations and ensures seamless travel experiences for every client.",
   },
   {
+    id: 3,
     name: "Naeem Abbas",
-    role: "General Manager",
+    role: "Tour Guide",
     image: "/asset/team/pic3.jpeg",
-    description:
-      "Manages logistics, partnerships, and customer satisfaction across all tours.",
+     description:
+      "Specializes in crafting personalized adventure and cultural tour packages.",
   },
   {
-    name: "Hassanain Shah",
-    role: "Tour Guide",
+    id: 4,
+    name: "Hussain Shah",
+     role: "General Manager",
+ 
     image: "/asset/team/pic4.jpeg",
     description:
-      "Specializes in crafting personalized adventure and cultural tour packages.",
+      "Manages logistics, partnerships, and customer satisfaction across all tours.",
+   
   },
 ];
 

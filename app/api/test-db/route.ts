@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { supabase } from '../../../lib/supabase';
+import { supabase } from '@/lib/supabase';
 
 export async function GET() {
   try {
@@ -26,9 +26,10 @@ export async function GET() {
       timestamp: new Date().toISOString()
     });
   } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     return NextResponse.json({
       connection: 'ERROR',
-      error: error.message,
+      error: errorMessage,
       timestamp: new Date().toISOString()
     }, { status: 500 });
   }

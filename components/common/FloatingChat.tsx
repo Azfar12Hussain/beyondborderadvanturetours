@@ -62,7 +62,7 @@ export default function FloatingChat() {
           </a>
         </div>
 
-        {/* Messenger */}
+      {/* Messenger */}
         <div className="relative group">
           <span className="absolute right-14 top-1/2 -translate-y-1/2 whitespace-nowrap rounded bg-black px-2 py-1 text-xs text-white opacity-0 group-hover:opacity-100 transition">
             Messenger
@@ -77,6 +77,7 @@ export default function FloatingChat() {
             <FaFacebookMessenger className="text-white text-xl" />
           </a>
         </div>
+
 
         {/* Instagram */}
         <div className="relative group">
