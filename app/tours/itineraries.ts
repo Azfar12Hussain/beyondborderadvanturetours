@@ -134,7 +134,7 @@ export const itineraries: Record<string, any> = {
       meals: "Dinner",
       points: [
         "Arrival at Islamabad International Airport",
-        "Warm welcome & meet-and-greet by our team",
+        "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
         "Tour briefing and assistance",
         "Dinner and overnight stay in Islamabad",
       ],
@@ -422,9 +422,7 @@ export const itineraries: Record<string, any> = {
     
     //.............................................................
     
-    
-    
-
+  
     "fairy-meadows-hunza-valley-tour": {
     title: "Fairy Meadows and Hunza Valley Tour",
     subtitle: "Northern Pakistan Autumn Expedition 2025",
@@ -1498,7 +1496,7 @@ export const itineraries: Record<string, any> = {
           meals: "Dinner",
           points: [
             "Arrival at Islamabad International Airport",
-            "Meet & greet by Hunza Adventure Tours team",
+            "Meet & greet by Beyond Border Adventure Tours team",
             "Transfer to hotel and overnight stay in Islamabad"
           ]
         },
@@ -1663,7 +1661,7 @@ export const itineraries: Record<string, any> = {
           meals: "Dinner",
           points: [
             "Arrival at Islamabad International Airport",
-            "Meet & greet by Hunza Adventure Tours team",
+            "Meet & greet by Greeted by Beyond Borders Adventure Tours team",
             "Transfer to hotel and overnight stay in Islamabad"
           ]
         },
@@ -1829,7 +1827,7 @@ export const itineraries: Record<string, any> = {
           meals: "Dinner",
           points: [
             "Arrival at Islamabad International Airport",
-            "Meet & greet by Hunza Adventure Tours team",
+            "Meet & greet by Greeted by Beyond Borders Adventure Tours team",
             "Transfer to hotel and overnight stay in Islamabad"
           ]
         },
@@ -3379,7 +3377,7 @@ export const itineraries: Record<string, any> = {
           "hotel": "Hotel in Islamabad",
           "meals": "Dinner",
           "points": [
-            "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+            "Greeted by Beyond Border Adventure Tours team at Islamabad International Airport",
             "Transfer with luggage to centrally located hotel",
             "Overnight stay in Islamabad"
           ]
@@ -3584,7 +3582,7 @@ export const itineraries: Record<string, any> = {
           "hotel": "Hotel in Islamabad",
           "meals": "Dinner",
           "points": [
-            "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+            "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
             "Transfer with luggage to centrally located hotel",
             "Overnight stay in Islamabad"
           ]
@@ -3786,7 +3784,7 @@ export const itineraries: Record<string, any> = {
           "hotel": "Hotel in Islamabad",
           "meals": "Dinner",
           "points": [
-            "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+            "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
             "Transfer with luggage to centrally located hotel",
             "Overnight stay in Islamabad"
           ]
@@ -3985,7 +3983,7 @@ export const itineraries: Record<string, any> = {
           "hotel": "Hotel in Islamabad",
           "meals": "Dinner",
           "points": [
-            "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+            "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
             "Transfer with luggage to centrally located hotel",
             "Overnight stay in Islamabad"
           ]
@@ -4190,7 +4188,7 @@ export const itineraries: Record<string, any> = {
           "hotel": "Hotel in Islamabad",
           "meals": "Dinner",
           "points": [
-            "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+            "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
             "Transfer with luggage to centrally located hotel",
             "Overnight stay in Islamabad"
           ]
@@ -4392,7 +4390,7 @@ export const itineraries: Record<string, any> = {
           "hotel": "Hotel in Islamabad",
           "meals": "Dinner",
           "points": [
-            "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+            "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
             "Transfer with luggage to centrally located hotel",
             "Overnight stay in Islamabad"
           ]
@@ -4590,7 +4588,7 @@ export const itineraries: Record<string, any> = {
         "hotel": "Hotel in Kashgar",
         "meals": "Dinner",
         "points": [
-          "Greeted by Hunza Adventure Tours team at Kashgar International Airport",
+          "Greeted by Greeted by Beyond Borders Adventure Tours team at Kashgar International Airport",
           "Transfer with luggage to centrally located hotel",
           "Overnight stay in Kashgar"
         ]
@@ -4754,7 +4752,7 @@ export const itineraries: Record<string, any> = {
         "hotel": "Hotel in Kashgar",
         "meals": "Dinner",
         "points": [
-          "Greeted by Hunza Adventure Tours team at Kashgar International Airport",
+          "Greeted by Greeted by Beyond Borders Adventure Tours team at Kashgar International Airport",
           "Transfer with luggage to centrally located hotel",
           "Overnight stay in Kashgar"
         ]
@@ -5056,7 +5054,7 @@ export const itineraries: Record<string, any> = {
         "hotel": "Hotel in Islamabad",
         "meals": "Dinner",
         "points": [
-          "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+          "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
           "Transfer with luggage to centrally located hotel in Islamabad",
           "Overnight stay in Islamabad"
         ]
@@ -5221,7 +5219,7 @@ export const itineraries: Record<string, any> = {
         "hotel": "Hotel in Islamabad",
         "meals": "Dinner",
         "points": [
-          "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+          "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
           "Transfer with luggage to centrally located hotel in Islamabad",
           "Overnight stay in Islamabad"
         ]
@@ -5353,7 +5351,7 @@ export const itineraries: Record<string, any> = {
         "hotel": "Hotel in Islamabad",
         "meals": "Dinner",
         "points": [
-          "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+          "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
           "Transfer with luggage to centrally located hotel in Islamabad",
           "Overnight stay in Islamabad"
         ]
@@ -5494,7 +5492,7 @@ export const itineraries: Record<string, any> = {
       
         "meals": "Dinner",
         "points": [
-          "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+          "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
           "Transfer with luggage to centrally located hotel in Islamabad",
           "Overnight stay in Islamabad"
         ]
@@ -5567,7 +5565,7 @@ export const itineraries: Record<string, any> = {
         "hotel": "Hotel in Islamabad",
         "meals": "Dinner",
         "points": [
-          "Greeted by Hunza Adventure Tours team at Islamabad International Airport",
+          "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
           "Transfer to hotel",
           "Overnight stay in Islamabad"
         ]
