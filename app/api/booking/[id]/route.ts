@@ -1,14 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabase';
 
+type Params = {
+  id: string;
+};
+
 export async function DELETE(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<Params> }
 ) {
   try {
-    const id = parseInt(params.id);
+    const { id } = await context.params;
+    const bookingId = parseInt(id);
 
-    if (isNaN(id)) {
+    if (isNaN(bookingId)) {
       return NextResponse.json(
         { error: 'Invalid booking ID' },
         { status: 400 }
@@ -18,7 +23,7 @@ export async function DELETE(
     const { error } = await supabase
       .from('bookings')
       .delete()
-      .eq('id', id);
+      .eq('id', bookingId);
 
     if (error) {
       return NextResponse.json(
@@ -41,12 +46,13 @@ export async function DELETE(
 
 export async function PUT(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: Promise<Params> }
 ) {
   try {
-    const id = parseInt(params.id);
+    const { id } = await context.params;
+    const bookingId = parseInt(id);
 
-    if (isNaN(id)) {
+    if (isNaN(bookingId)) {
       return NextResponse.json(
         { error: 'Invalid booking ID' },
         { status: 400 }
@@ -82,7 +88,7 @@ export async function PUT(
         group_size: group_size ? parseInt(group_size) : null,
         special_requests,
       })
-      .eq('id', id)
+      .eq('id', bookingId)
       .select()
       .single();
 
