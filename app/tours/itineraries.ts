@@ -16,7 +16,6 @@ export const itineraries: Record<string, any> = {
           {
             day: "Day 01",
             title: "Arrival in Islamabad",
-            hotel: "Best Western Premier Hotel Islamabad 5★ or similar",
             meals: "Dinner",
             points: [
               "Arrival at Islamabad International Airport",
@@ -28,7 +27,6 @@ export const itineraries: Record<string, any> = {
           {
             day: "Day 02",
             title: "Islamabad – Skardu – Gilgit",
-            hotel: "Ramada by Wyndham Gilgit 5★ or similar",
             meals: "Breakfast / Lunch / Dinner",
             points: [
               "Early morning flight from Islamabad to Skardu",
@@ -43,7 +41,6 @@ export const itineraries: Record<string, any> = {
           {
             day: "Day 03",
             title: "Gilgit – Hunza Valley",
-            hotel: "Ambiance Resort Hunza 5★ or similar",
             meals: "Breakfast / Lunch / Dinner",
             points: [
               "Drive from Gilgit to Hunza",
@@ -57,7 +54,6 @@ export const itineraries: Record<string, any> = {
           {
             day: "Day 04",
             title: "Attabad Lake – Hussaini Bridge – Passu Cones",
-            hotel: "Ambiance Resort Hunza 5★ or similar",
             meals: "Breakfast / Lunch / Dinner",
             points: [
               "Boating at Attabad Lake",
@@ -71,7 +67,6 @@ export const itineraries: Record<string, any> = {
           {
             day: "Day 05",
             title: "Hunza – Nagar – Hopper Valley – Gilgit",
-            hotel: "Ramada by Wyndham Gilgit 5★ or similar",
             meals: "Breakfast / Lunch / Dinner",
             points: [
               "Drive to Nagar Valley",
@@ -86,7 +81,6 @@ export const itineraries: Record<string, any> = {
           {
             day: "Day 06",
             title: "Gilgit – Skardu",
-            hotel: "Fortune North Resort Skardu 5★ or similar",
             meals: "Breakfast / Lunch / Dinner",
             points: [
               "Drive from Gilgit to Skardu",
@@ -99,7 +93,6 @@ export const itineraries: Record<string, any> = {
           {
             day: "Day 07",
             title: "Skardu – Islamabad",
-            hotel: "Best Western Premier Islamabad 5★ or similar",
             meals: "Breakfast / Lunch / Dinner",
             points: [
               "Flight from Skardu to Islamabad",
@@ -112,7 +105,6 @@ export const itineraries: Record<string, any> = {
           {
             day: "Day 08",
             title: "Islamabad City Tour & Departure",
-            hotel: "Drop-off",
             meals: "Breakfast / Lunch / Dinner",
             points: [
               "Visit Pakistan Monument",
@@ -127,10 +119,9 @@ export const itineraries: Record<string, any> = {
         /* ===================== BY ROAD ===================== */
         road: [
           // SAME DATA — tum baad me road ke hisaab se change kar sakte ho
-          {
+    {
       day: "Day 01",
       title: "Arrival in Islamabad",
-      hotel: "Ramada by Wyndham Islamabad 4★",
       meals: "Dinner",
       points: [
         "Arrival at Islamabad International Airport",
@@ -143,7 +134,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 02",
       title: "Islamabad City & Embassy Visit",
-      hotel: "Ramada by Wyndham Islamabad 4★",
       meals: "Breakfast, Dinner",
       points: [
         "Breakfast at hotel",
@@ -157,7 +147,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 03",
       title: "Islamabad to Naran / Besham",
-      hotel: "Rockwood Resort Naran 4★ / Besham Hilton Hotel 3★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -173,7 +162,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 04",
       title: "Naran / Besham to Gilgit via Babusar Pass",
-      hotel: "Ramada by Wyndham Hotel Gilgit 5★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -190,7 +178,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 05",
       title: "Gilgit to Hunza Valley",
-      hotel: "Ambiance Resort Hunza 5★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -207,7 +194,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 06",
       title: "Hunza – Attabad Lake, Hussaini Bridge & Passu",
-      hotel: "Ambiance Resort Hunza 5★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -225,7 +211,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 07",
       title: "Hunza – Nagar Valley & Hopper Glacier",
-      hotel: "Ramada by Wyndham Hotel Gilgit 5★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -242,7 +227,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 08",
       title: "Gilgit to Naran / Besham",
-      hotel: "Rockwood Resort Naran 4★ / Besham Hilton Hotel 3★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -258,7 +242,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 09",
       title: "Naran / Besham to Islamabad & Departure",
-      hotel: "—",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -276,10 +259,9 @@ export const itineraries: Record<string, any> = {
         /* ===================== MIXED ===================== */
         mixed: [
           // SAME DATA — tum baad me mixed ke hisaab se change kar sakte ho
-          {
+    {
       day: "Day 01",
       title: "Arrival in Islamabad",
-      hotel: "Grand Islamabad Hotel 4★",
       meals: "Dinner",
       points: [
         "Arrival at Islamabad International Airport",
@@ -292,7 +274,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 02",
       title: "Islamabad to Skardu (Flight)",
-      hotel: "K2 Green Pak Resort Skardu 4★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Early morning breakfast at hotel",
@@ -306,7 +287,7 @@ export const itineraries: Record<string, any> = {
         "Drive to Skardu city",
         "Dinner and overnight stay in Skardu",
       ],
-    },
+      },
 
     {
       day: "Day 03",
@@ -329,7 +310,6 @@ export const itineraries: Record<string, any> = {
           {
       day: "Day 04",
       title: "Gilgit to Hunza Valley",
-      hotel: "Famree Resort Hunza 4★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -347,7 +327,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 05",
       title: "Hunza – Attabad Lake, Hussaini Bridge & Passu",
-      hotel: "Famree Resort Hunza 4★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -366,7 +345,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 06",
       title: "Hunza – Nagar Valley – Hopper – Gilgit",
-      hotel: "Kalisto Hotel Gilgit 3★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -385,7 +363,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 07",
       title: "Gilgit to Naran / Besham",
-      hotel: "Rockwood Resort Naran 4★ / Besham Hilton Hotel 3★",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -402,7 +379,6 @@ export const itineraries: Record<string, any> = {
     {
       day: "Day 08",
       title: "Naran / Besham to Islamabad & Departure",
-      hotel: "—",
       meals: "Breakfast, Lunch, Dinner",
       points: [
         "Breakfast at hotel",
@@ -419,10 +395,7 @@ export const itineraries: Record<string, any> = {
         ],
       },
     },
-    
-    //.............................................................
-    
-  
+     
     "fairy-meadows-hunza-valley-tour": {
     title: "Fairy Meadows and Hunza Valley Tour",
     subtitle: "Northern Pakistan Autumn Expedition 2025",
@@ -439,7 +412,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Islamabad",
-          hotel: "Hotel Grand Islamabad",
           meals: "Dinner",
           points: [
             "Arrival from Guangzhou to Islamabad",
@@ -452,7 +424,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Islamabad – Skardu (Flight)",
-          hotel: "Qayam Skardu",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Morning flight from Islamabad to Skardu",
@@ -466,7 +437,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Skardu – Khaplu – Skardu",
-          hotel: "Qayam Skardu",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Scenic drive to Khaplu Valley",
@@ -480,7 +450,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Skardu – Shigar – Sarfaranga",
-          hotel: "Qayam Skardu",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Shigar Valley",
@@ -494,7 +463,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Skardu – Hunza Valley",
-          hotel: "Darbar / Hilltop / Offto Resort Hunza",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive from Skardu to Hunza",
@@ -509,7 +477,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Full Day Hunza",
-          hotel: "Darbar / Hilltop / Offto Resort Hunza",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Boating at Attabad Lake",
@@ -523,7 +490,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Hunza – Hopper – Gilgit",
-          hotel: "Ramada by Wyndham Gilgit",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Hopper Valley",
@@ -537,7 +503,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Gilgit – Fairy Meadows",
-          hotel: "Broad View Hotel Fairy Meadows",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Raikot Bridge",
@@ -550,7 +515,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 09",
           title: "Fairy Meadows – Nanga Parbat Viewpoint",
-          hotel: "Broad View Hotel Fairy Meadows",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek to Beyal Camp",
@@ -563,7 +527,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 10",
           title: "Fairy Meadows – Naran / Besham",
-          hotel: "Northern Retreat / Rock Wood / Besham Hilton",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek back to Tattu Village",
@@ -576,7 +539,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 11",
           title: "Naran / Besham – Islamabad",
-          hotel: "Drop-off",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Islamabad",
@@ -593,7 +555,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Islamabad",
-          hotel: "Hotel Grand Islamabad",
+         
           meals: "Dinner",
           points: [
             "Arrival at Islamabad International Airport",
@@ -605,7 +567,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Islamabad – Naran / Besham",
-          hotel: "Northern Retreat Naran / Besham Hilton",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive via Abbottabad & Mansehra",
@@ -618,7 +580,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Naran / Besham – Skardu",
-          hotel: "Qayam Skardu",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive via Babusar Pass / Karakoram Highway",
@@ -631,7 +593,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Skardu – Khaplu",
-          hotel: "Qayam Skardu",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Khaplu Valley",
@@ -644,7 +606,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Skardu – Shigar – Sarfaranga",
-          hotel: "Qayam Skardu",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Shigar Valley",
@@ -656,7 +618,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Skardu – Hunza",
-          hotel: "Darbar / Hilltop / Offto Resort Hunza",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Hunza",
@@ -669,7 +631,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Hunza Sightseeing",
-          hotel: "Darbar / Hilltop / Offto Resort Hunza",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Attabad Lake boating",
@@ -682,7 +644,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Hunza – Gilgit",
-          hotel: "Ramada Gilgit",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Hopper Glacier",
@@ -694,7 +656,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 09",
           title: "Gilgit – Fairy Meadows",
-          hotel: "Broad View Hotel",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Raikot Bridge",
@@ -706,7 +668,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 10",
           title: "Fairy Meadows – Naran / Besham",
-          hotel: "Northern Retreat / Besham Hilton",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek back",
@@ -717,7 +679,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 11",
           title: "Naran / Besham – Islamabad",
-          hotel: "Drop-off",
+      
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Taxila Museum",
@@ -732,7 +694,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Islamabad",
-          hotel: "Hotel Grand Islamabad",
           meals: "Dinner",
           points: [
             "Arrival at Islamabad Airport",
@@ -743,7 +704,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Islamabad – Skardu (Flight)",
-          hotel: "Qayam Skardu",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Flight to Skardu",
@@ -755,7 +715,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Skardu – Khaplu – Skardu",
-          hotel: "Qayam Skardu",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Khaplu Fort visit",
@@ -766,7 +725,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Skardu – Shigar – Sarfaranga",
-          hotel: "Qayam Skardu",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Shigar Valley",
@@ -777,7 +735,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Skardu – Hunza (Road)",
-          hotel: "Darbar / Hilltop / Offto Resort Hunza",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Old Silk Road",
@@ -789,7 +746,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Hunza Sightseeing",
-          hotel: "Darbar / Hilltop / Offto Resort Hunza",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Attabad Lake",
@@ -801,7 +757,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Hunza – Gilgit",
-          hotel: "Ramada Gilgit",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Hopper Glacier",
@@ -812,7 +767,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Gilgit – Fairy Meadows",
-          hotel: "Broad View Hotel",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Raikot Bridge",
@@ -823,7 +777,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 09",
           title: "Nanga Parbat Viewpoint Trek",
-          hotel: "Broad View Hotel",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Beyal Camp trek",
@@ -834,7 +787,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 10",
           title: "Fairy Meadows – Naran / Besham",
-          hotel: "Northern Retreat / Besham Hilton",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Return trek",
@@ -845,7 +797,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 11",
           title: "Naran / Besham – Islamabad",
-          hotel: "Drop-off",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Taxila Museum",
@@ -873,7 +824,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Dinner",
           points: [
             "Arrival in Lahore",
@@ -885,7 +835,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Lahore Walled City Tour",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Lahore Fort (UNESCO World Heritage Site)",
@@ -900,7 +849,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Sheikhupura Excursion",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Hiran Minar (Mughal-era complex)",
@@ -913,7 +861,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Lahore – Multan (Flight) – Bahawalpur",
-          hotel: "Bahawalpur Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Domestic flight from Lahore to Multan",
@@ -926,7 +873,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Bahawalpur – Cholistan – Lahore (Flight)",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Noor Mahal",
@@ -941,7 +887,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Lahore – Peshawar (Flight)",
-          hotel: "Peshawar Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Domestic flight from Lahore to Peshawar",
@@ -953,7 +898,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Takht-e-Bahi & Taxila",
-          hotel: "Peshawar Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Takht-e-Bahi (UNESCO Site)",
@@ -965,7 +909,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Peshawar City Tour – Islamabad",
-          hotel: "Drop-off",
           meals: "Breakfast / Lunch",
           points: [
             "Explore Qissa Khwani Bazaar",
@@ -981,7 +924,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Dinner",
           points: [
             "Arrival and transfer to hotel",
@@ -992,7 +934,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Lahore Walled City Tour",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Lahore Fort",
@@ -1006,7 +947,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Lahore – Sheikhupura – Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Hiran Minar",
@@ -1018,7 +958,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Lahore – Multan – Bahawalpur",
-          hotel: "Bahawalpur Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Multan",
@@ -1030,7 +969,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Bahawalpur – Cholistan – Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Noor Mahal",
@@ -1043,7 +981,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Lahore – Khewra – Peshawar",
-          hotel: "Peshawar Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Peshawar",
@@ -1054,7 +991,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Takht-e-Bahi & Taxila",
-          hotel: "Peshawar Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Takht-e-Bahi Monastery",
@@ -1065,7 +1001,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Peshawar – Islamabad",
-          hotel: "Drop-off",
           meals: "Breakfast / Lunch",
           points: [
             "Peshawar city tour",
@@ -1080,7 +1015,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
+          
           meals: "Dinner",
           points: [
             "Arrival and hotel transfer",
@@ -1090,7 +1025,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Lahore Walled City Tour",
-          hotel: "Lahore Hotel (4★ / 5★)",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Full-day heritage tour",
@@ -1100,7 +1035,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Sheikhupura Excursion",
-          hotel: "Lahore Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Hiran Minar",
@@ -1111,7 +1046,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Lahore – Multan (Flight) – Bahawalpur",
-          hotel: "Bahawalpur Hotel (4★ / 5★)",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Flight to Multan",
@@ -1123,7 +1058,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Bahawalpur – Cholistan – Lahore (Road)",
-          hotel: "Lahore Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Noor Mahal",
@@ -1135,7 +1070,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Lahore – Peshawar (Road)",
-          hotel: "Peshawar Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Stop at Khewra Salt Mine",
@@ -1145,7 +1080,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Takht-e-Bahi & Taxila",
-          hotel: "Peshawar Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "UNESCO Buddhist heritage sites",
@@ -1155,7 +1090,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Peshawar – Islamabad",
-          hotel: "Drop-off",
+         
           meals: "Breakfast / Lunch",
           points: [
             "City tour",
@@ -1174,7 +1109,7 @@ export const itineraries: Record<string, any> = {
       "From Lahore’s Walled City to Multan, Bahawalpur, Peshawar, and Islamabad.",
     ],
     whatsapp: "923135235207",
-  
+
 
     itinerariesByType: {
       /* ===================== BY AIR ===================== */
@@ -1182,7 +1117,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Dinner",
           points: [
             "Arrival in Lahore",
@@ -1194,7 +1128,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Lahore Walled City Tour",
-          hotel: "Lahore Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Lahore Fort (UNESCO World Heritage Site)",
@@ -1209,7 +1143,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Sheikhupura Excursion",
-          hotel: "Lahore Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Hiran Minar (Mughal-era complex)",
@@ -1222,7 +1156,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Lahore – Multan (Flight) – Bahawalpur",
-          hotel: "Bahawalpur Hotel (4★ / 5★)",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Domestic flight from Lahore to Multan",
@@ -1235,7 +1169,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Bahawalpur – Cholistan – Lahore (Flight)",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Gandhara Fort",
@@ -1250,7 +1183,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Lahore – Peshawar (Flight)",
-          hotel: "Peshawar Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Domestic flight from Lahore to Peshawar",
@@ -1262,7 +1194,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Takht-e-Bahi & Taxila",
-          hotel: "Peshawar Hotel (4★ / 5★)",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Takht-e-Bahi (UNESCO Site)",
@@ -1274,7 +1206,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Peshawar City Tour – Islamabad",
-          hotel: "Drop-off",
           meals: "Breakfast / Lunch",
           points: [
             "Explore Qissa Khwani Bazaar",
@@ -1290,7 +1221,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Dinner",
           points: [
             "Arrival and transfer to hotel",
@@ -1301,7 +1231,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Lahore Walled City Tour",
-          hotel: "Lahore Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Lahore Fort",
@@ -1315,7 +1245,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Lahore – Sheikhupura – Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Hiran Minar",
@@ -1327,7 +1256,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Lahore – Multan – Bahawalpur",
-          hotel: "Bahawalpur Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Multan",
@@ -1339,7 +1267,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Bahawalpur – Cholistan – Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Gandhara Fort",
@@ -1352,7 +1279,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Lahore – Khewra – Peshawar",
-          hotel: "Peshawar Hotel (4★ / 5★)",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Peshawar",
@@ -1363,7 +1289,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Takht-e-Bahi & Taxila",
-          hotel: "Peshawar Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Takht-e-Bahi Monastery",
@@ -1374,7 +1300,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Peshawar – Islamabad",
-          hotel: "Drop-off",
+        
           meals: "Breakfast / Lunch",
           points: [
             "Peshawar city tour",
@@ -1389,7 +1315,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Lahore",
-          hotel: "Lahore Hotel (4★ / 5★)",
+        
           meals: "Dinner",
           points: [
             "Arrival and hotel transfer",
@@ -1399,7 +1325,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Lahore Walled City Tour",
-          hotel: "Lahore Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Full-day heritage tour",
@@ -1409,7 +1335,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Sheikhupura Excursion",
-          hotel: "Lahore Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Hiran Minar",
@@ -1420,7 +1346,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Lahore – Multan (Flight) – Bahawalpur",
-          hotel: "Bahawalpur Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Flight to Multan",
@@ -1432,7 +1358,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Bahawalpur – Cholistan – Lahore (Road)",
-          hotel: "Lahore Hotel (4★ / 5★)",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Gandhara Fort",
@@ -1444,7 +1370,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Lahore – Peshawar (Road)",
-          hotel: "Peshawar Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Stop at Khewra Salt Mine",
@@ -1454,7 +1380,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Takht-e-Bahi & Taxila",
-          hotel: "Peshawar Hotel (4★ / 5★)",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "UNESCO Buddhist heritage sites",
@@ -1464,7 +1390,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Peshawar – Islamabad",
-          hotel: "Drop-off",
+         
           meals: "Breakfast / Lunch",
           points: [
             "City tour",
@@ -1474,7 +1400,6 @@ export const itineraries: Record<string, any> = {
       ],
     },
   },
-
 
   "rakaposhi-diran-basecmp": {
     title: "Rakaposhi and Diran Base Camp Trek",
@@ -1492,7 +1417,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Islamabad",
-          hotel: "Hotel Grand Islamabad 4★ or similar",
           meals: "Dinner",
           points: [
             "Arrival at Islamabad International Airport",
@@ -1503,7 +1427,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Islamabad → Chilas (Flight & Drive)",
-          hotel: "Hotel in Chilas 4★ or similar",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Scenic flight or drive to Chilas",
@@ -1515,7 +1438,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Chilas → Karimabad (Hunza)",
-          hotel: "Darbar Hotel / Hiltop Hotel / Offto Resort 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Karimabad via junction of three mountain ranges",
@@ -1527,7 +1450,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Karimabad → Hopper Valley",
-          hotel: "Lodge in Hopper Valley",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Baltit & Altit Forts",
@@ -1539,7 +1462,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Hopper Valley → Barpo Giram (Camping)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cross Bualter Glacier and trek above Barpu Glacier",
@@ -1550,7 +1473,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Barpo Giram → Brikchour (Camping)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cross Barpu Glacier and reach Brikchour campsite",
@@ -1561,7 +1484,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Brikchour → Rush Lake (Camping)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Steep ascent via zigzag trail to Chiden Haral campsite",
@@ -1572,7 +1495,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Rush Lake → Rush Peak Ascent (5095m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Early morning peak ascent via Rush Lake",
@@ -1583,7 +1506,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 09",
           title: "Rush Lake → Gutons",
-          hotel: "Guesthouse in Gutons",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Morning free for photography and nature exploration",
@@ -1594,7 +1517,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 10",
           title: "Gutons → Hopper → Gulmit",
-          hotel: "Hotel in Gulmit 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Return trek to Hopper via Barpu Glacier",
@@ -1605,7 +1528,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 11",
           title: "Passu – Borith – Suspension Bridges",
-          hotel: "Hotel in Gulmit 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Hussaini Suspension Bridge",
@@ -1617,7 +1540,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 12",
           title: "Excursion – Khunjerab Pass",
-          hotel: "Hotel in Gulmit 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Full-day trip to Khunjerab Pass (4733m)",
@@ -1629,7 +1552,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 13",
           title: "Gulmit → Besham",
-          hotel: "Hotel in Besham 4★ or similar",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive back towards Besham via Karakoram Highway",
@@ -1640,7 +1563,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 14",
           title: "Besham → Islamabad → Departure",
-          hotel: "—",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Islamabad",
@@ -1657,7 +1580,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Islamabad",
-          hotel: "Hotel Grand Islamabad 4★ or similar",
           meals: "Dinner",
           points: [
             "Arrival at Islamabad International Airport",
@@ -1668,7 +1590,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Islamabad → Chilas (Drive)",
-          hotel: "Hotel in Chilas 4★ or similar",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive along Karakoram Highway (full-day scenic drive)",
@@ -1680,7 +1601,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Chilas → Karimabad (Hunza) via Gilgit",
-          hotel: "Darbar Hotel / Hiltop Hotel / Offto Resort 4★ or similar",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Gilgit with short photo stops",
@@ -1693,7 +1613,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Karimabad → Hopper Valley",
-          hotel: "Lodge in Hopper Valley",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Baltit & Altit Forts",
@@ -1705,7 +1625,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Hopper Valley → Barpo Giram (Camping)",
-          hotel: "Camp",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek across Bualter Glacier and Barpu Glacier",
@@ -1716,7 +1636,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Barpo Giram → Brikchour (Camping)",
-          hotel: "Camp",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Continue trekking along glacier trails to Brikchour campsite",
@@ -1727,7 +1647,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Brikchour → Rush Lake (Camping)",
-          hotel: "Camp",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Steep ascent via zigzag trail to Chiden Haral campsite",
@@ -1738,7 +1658,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Rush Lake → Rush Peak Base Camp (5095m)",
-          hotel: "Camp",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Early morning trek to Rush Peak Base Camp",
@@ -1749,7 +1668,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 09",
           title: "Rush Lake → Gutons",
-          hotel: "Guesthouse in Gutons",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Morning free for photography and nature exploration",
@@ -1760,7 +1679,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 10",
           title: "Gutons → Hopper → Gulmit",
-          hotel: "Hotel in Gulmit 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Return trek to Hopper via Barpu Glacier",
@@ -1771,7 +1690,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 11",
           title: "Passu – Borith – Suspension Bridges",
-          hotel: "Hotel in Gulmit 4★ or similar",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Hussaini Suspension Bridge",
@@ -1783,7 +1702,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 12",
           title: "Excursion – Khunjerab Pass",
-          hotel: "Hotel in Gulmit 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Full-day road trip to Khunjerab Pass (4733m)",
@@ -1795,7 +1714,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 13",
           title: "Gulmit → Besham",
-          hotel: "Hotel in Besham 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive back towards Besham via Karakoram Highway",
@@ -1806,7 +1725,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 14",
           title: "Besham → Islamabad → Departure",
-          hotel: "—",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Islamabad",
@@ -1823,7 +1742,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrival in Islamabad",
-          hotel: "Hotel Grand Islamabad 4★ or similar",
           meals: "Dinner",
           points: [
             "Arrival at Islamabad International Airport",
@@ -1834,7 +1752,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Islamabad → Chilas (Mixed Travel)",
-          hotel: "Hotel in Chilas 4★ or similar",
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Option to fly or drive along Karakoram Highway",
@@ -1846,7 +1763,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Chilas → Karimabad (Hunza)",
-          hotel: "Darbar Hotel / Hiltop Hotel / Offto Resort 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Karimabad via junction of three mountain ranges",
@@ -1858,7 +1775,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Karimabad → Hopper Valley",
-          hotel: "Lodge in Hopper Valley",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Baltit & Altit Forts",
@@ -1870,7 +1787,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Hopper Valley → Barpo Giram (Camping)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cross Bualter Glacier and trek above Barpu Glacier",
@@ -1881,7 +1798,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Barpo Giram → Brikchour (Camping)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cross Barpu Glacier and reach Brikchour campsite",
@@ -1892,7 +1809,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Brikchour → Rush Lake (Camping)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Steep ascent via zigzag trail to Chiden Haral campsite",
@@ -1903,7 +1820,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Rush Lake → Rush Peak Ascent (5095m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Early morning peak ascent via Rush Lake",
@@ -1914,7 +1831,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 09",
           title: "Rush Lake → Gutons",
-          hotel: "Guesthouse in Gutons",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Morning free for photography and nature exploration",
@@ -1925,7 +1842,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 10",
           title: "Gutons → Hopper → Gulmit",
-          hotel: "Hotel in Gulmit 4★ or similar",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Return trek to Hopper via Barpu Glacier",
@@ -1936,7 +1853,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 11",
           title: "Passu – Borith – Suspension Bridges",
-          hotel: "Hotel in Gulmit 4★ or similar",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Visit Hussaini Suspension Bridge",
@@ -1948,7 +1865,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 12",
           title: "Excursion – Khunjerab Pass",
-          hotel: "Hotel in Gulmit 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Full-day trip to Khunjerab Pass (4733m)",
@@ -1960,7 +1877,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 13",
           title: "Gulmit → Besham",
-          hotel: "Hotel in Besham 4★ or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive back towards Besham via Karakoram Highway",
@@ -1971,7 +1888,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 14",
           title: "Besham → Islamabad → Departure",
-          hotel: "—",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive to Islamabad",
@@ -1984,6 +1901,9 @@ export const itineraries: Record<string, any> = {
       ],
     },
   },
+
+
+   //............................................................
   
     "k2-gondogoro-la-trek": {
     title: "K2 Gondogoro La Trek ",
@@ -2001,7 +1921,6 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrive Islamabad",
-          hotel: "Hotel/Guest House Islamabad",
           meals: "Dinner",
           points: [
             "Transfer to hotel/guest house on arrival",
@@ -2012,7 +1931,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Fly to Skardu",
-          hotel: "Masherbrum Hotel or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Weather permitting: scenic flight to Skardu, seeing Nanga Parbat & K2",
@@ -2023,7 +1942,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Explore Skardu & Prepare for Trek",
-          hotel: "Masherbrum Hotel",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek preparations and check-in at Skardu hotel",
@@ -2034,7 +1953,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Drive to Askole (3000m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Jeep ride along Shigar & Braldu Valleys to Askole",
@@ -2045,7 +1964,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Trek to Jula (3200m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Commence trek towards Jhola, cross Biafo Glacier snout",
@@ -2056,7 +1975,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Trek to Payu (3450m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek along riverside trails with views of Masherbrum Group",
@@ -2067,7 +1986,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Rest Day at Payu",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Rest and prepare for glacier trek",
@@ -2078,7 +1997,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Trek to Khoburche (3930m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Approach glacier and navigate moraine trails",
@@ -2089,7 +2008,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 09",
           title: "Trek to Urdukas (4050m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Easier day with trail along Baltoro Glacier",
@@ -2100,7 +2019,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 10",
           title: "Trek to Goro II (4380m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cross rugged glacier terrain to Goro II",
@@ -2110,7 +2029,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 11",
           title: "Trek to Concordia (4650m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek into Concordia with first views of K2 (weather permitting)",
@@ -2121,7 +2040,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 12",
           title: "Optional Broad Peak & K2 Base Camp",
-          hotel: "Camp at Concordia",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Full-day excursion to K2 Base Camp and Gilkey Memorial",
@@ -2131,7 +2050,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 13",
           title: "Return Trek: Goro II (4100m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Descend from Concordia to Goro II",
@@ -2141,7 +2060,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 14",
           title: "Trek to Khoburche (3795m) via Urdukas",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Continue descent, camp at Khoburche"
@@ -2150,7 +2069,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 15",
           title: "Trek to Payu (3450m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cross Baltoro to north side beneath Uli Biaho Towers",
@@ -2160,7 +2079,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 16",
           title: "Trek via Panma Valley to Korofon",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Follow Braldu River downstream to Jhola/Korofon",
@@ -2170,7 +2089,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 17",
           title: "Final Trek to Askole (3000m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Complete trek and farewell to porters",
@@ -2180,7 +2099,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 18",
           title: "Drive to Skardu (2450m)",
-          hotel: "Hotel in Skardu",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive through Shigar Valley",
@@ -2191,7 +2110,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 19",
           title: "Fly to Islamabad",
-          hotel: "Invite Inn Guest House",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Weather permitting: flight to Islamabad",
@@ -2202,7 +2121,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 20",
           title: "Drive / Contingency Day",
-          hotel: "Invite Inn Guest House",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cushion day in case of delays, weather, or health issues",
@@ -2212,7 +2131,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 21",
           title: "Trip Concludes in Islamabad",
-          hotel: "—",
+          
           meals: "Breakfast",
           points: [
             "Transfer to airport for return flight"
@@ -2225,7 +2144,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 01",
     "title": "Arrive Islamabad",
-    "hotel": "Hotel/Guest House Islamabad",
+    
     "meals": "Dinner",
     "points": [
       "Transfer to hotel/guest house on arrival",
@@ -2236,7 +2155,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 02",
     "title": "Drive to Chilas (480 km, 10-12 hrs)",
-    "hotel": "Shangri-La Indus View Hotel / Panorama Hotel",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Drive from Islamabad to Chilas via Karakoram Highway",
@@ -2247,7 +2166,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 03",
     "title": "Drive to Skardu from Chilas (275 km, 7-8 hrs)",
-    "hotel": "Masherbrum Hotel",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Drive through the Karakoram Highway with spectacular views of Nanga Parbat",
@@ -2258,7 +2177,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 04",
     "title": "Drive to Askole (3000m, 7-8 hrs)",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Jeep ride along Shigar and Braldu Valleys to Askole",
@@ -2269,7 +2188,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 05",
     "title": "Trek to Jula (3200m, 6 hrs)",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Commence trek towards Jhola, cross Biafo Glacier snout",
@@ -2280,7 +2199,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 06",
     "title": "Trek to Payu (3450m, 7-8 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Trek along riverside trails with views of Masherbrum Group",
@@ -2291,7 +2210,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 07",
     "title": "Rest Day at Payu",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Rest and prepare for glacier trek",
@@ -2302,7 +2221,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 08",
     "title": "Trek to Khoburche (3930m, 7-8 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Approach glacier and navigate moraine trails",
@@ -2313,7 +2232,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 09",
     "title": "Trek to Urdukas (4050m, 3-4 hrs)",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Easier day with trail along Baltoro Glacier",
@@ -2324,7 +2243,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 10",
     "title": "Trek to Goro II (4380m, 6-7 hrs)",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Cross rugged glacier terrain to Goro II",
@@ -2334,7 +2253,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 11",
     "title": "Trek to Concordia (4650m, 5-6 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Trek into Concordia with first views of K2",
@@ -2345,7 +2264,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 12",
     "title": "Optional Broad Peak & K2 Base Camp",
-    "hotel": "Camp at Concordia",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Full-day excursion to K2 Base Camp and Gilkey Memorial",
@@ -2355,7 +2274,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 13",
     "title": "Return Trek: Goro II (4100m)",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Descend from Concordia to Goro II",
@@ -2365,7 +2284,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 14",
     "title": "Trek to Khoburche (3795m) via Urdukas",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Continue descent, camp at Khoburche"
@@ -2374,7 +2293,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 15",
     "title": "Trek to Payu (3450m, 8-10 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Cross Baltoro to north side beneath Uli Biaho Towers",
@@ -2384,7 +2303,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 16",
     "title": "Trek via Panma Valley to Korofon",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Follow Braldu River downstream to Jhola/Korofon",
@@ -2394,7 +2313,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 17",
     "title": "Final Trek to Askole (3000m, 3-4 hrs)",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Complete trek and farewell to porters",
@@ -2404,7 +2323,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 18",
     "title": "Drive to Skardu (2450m, 5-6 hrs)",
-    "hotel": "Hotel in Skardu",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Drive through Shigar Valley",
@@ -2415,7 +2334,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 19",
     "title": "Drive to Islamabad via Chilas (8-10 hrs)",
-    "hotel": "Invite Inn Guest House",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Drive from Skardu to Chilas, then Islamabad",
@@ -2426,7 +2345,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 20",
     "title": "Contingency / Cushion Day",
-    "hotel": "Invite Inn Guest House",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Extra day for weather, health, or travel delays",
@@ -2436,7 +2355,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 21",
     "title": "Trip Concludes in Islamabad",
-    "hotel": "—",
+    
     "meals": "Breakfast",
     "points": [
       "Transfer to airport for return flight"
@@ -2450,7 +2369,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 01",
             "title": "Arrive Islamabad",
-            "hotel": "Hotel/Guest House Islamabad",
+           
             "meals": "Dinner",
             "points": [
               "Transfer to hotel/guest house on arrival",
@@ -2461,7 +2380,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 02",
             "title": "Fly to Skardu (weather permitting) or Drive to Chilas",
-            "hotel": "Masherbrum Hotel / Chilas Hotel",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Weather permitting, fly from Islamabad to Skardu (see Nanga Parbat & K2 from air)",
@@ -2472,7 +2391,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 03",
             "title": "Drive to Skardu from Chilas (if flown already, optional local sightseeing)",
-            "hotel": "Masherbrum Hotel",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "If flown, day for preparations and optional Kachura Lake visit",
@@ -2483,7 +2402,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 04",
             "title": "Drive to Askole (3000m, 7-8 hrs)",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Jeep ride along Shigar and Braldu Valleys to Askole",
@@ -2494,7 +2413,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 05",
             "title": "Trek to Jula (3200m, 6 hrs)",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Commence trek towards Jhola, cross Biafo Glacier snout",
@@ -2505,7 +2424,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 06",
             "title": "Trek to Payu (3450m, 7-8 hrs)",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Trek along riverside trails with views of Masherbrum Group",
@@ -2516,7 +2435,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 07",
             "title": "Rest Day at Payu",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Rest and prepare for glacier trek",
@@ -2527,7 +2446,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 08",
             "title": "Trek to Khoburche (3930m, 7-8 hrs)",
-            "hotel": "Camp",
+           
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Approach glacier and navigate moraine trails",
@@ -2538,7 +2457,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 09",
             "title": "Trek to Urdukas (4050m, 3-4 hrs)",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Easier day with trail along Baltoro Glacier",
@@ -2549,7 +2468,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 10",
             "title": "Trek to Goro II (4380m, 6-7 hrs)",
-            "hotel": "Camp",
+           
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Cross rugged glacier terrain to Goro II",
@@ -2559,7 +2478,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 11",
             "title": "Trek to Concordia (4650m, 5-6 hrs)",
-            "hotel": "Camp",
+           
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Trek into Concordia with first views of K2",
@@ -2570,7 +2489,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 12",
             "title": "Optional Broad Peak & K2 Base Camp",
-            "hotel": "Camp at Concordia",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Full-day excursion to K2 Base Camp and Gilkey Memorial",
@@ -2580,7 +2499,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 13",
             "title": "Return Trek: Goro II (4100m)",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Descend from Concordia to Goro II",
@@ -2590,7 +2509,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 14",
             "title": "Trek to Khoburche (3795m) via Urdukas",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Continue descent, camp at Khoburche"
@@ -2599,7 +2518,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 15",
             "title": "Trek to Payu (3450m, 8-10 hrs)",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Cross Baltoro to north side beneath Uli Biaho Towers",
@@ -2609,7 +2528,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 16",
             "title": "Trek via Panma Valley to Korofon",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Follow Braldu River downstream to Jhola/Korofon",
@@ -2619,7 +2538,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 17",
             "title": "Final Trek to Askole (3000m, 3-4 hrs)",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Complete trek and farewell to porters",
@@ -2629,7 +2548,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 18",
             "title": "Drive to Skardu (2450m, 5-6 hrs)",
-            "hotel": "Hotel in Skardu",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Drive through Shigar Valley",
@@ -2640,7 +2559,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 19",
             "title": "Fly to Islamabad (weather permitting) or Drive via Chilas",
-            "hotel": "Invite Inn Guest House",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Weather permitting, fly to Islamabad and transfer to hotel",
@@ -2651,7 +2570,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 20",
             "title": "Contingency / Cushion Day",
-            "hotel": "Invite Inn Guest House",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Extra day for weather, health, or travel delays",
@@ -2661,7 +2580,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 21",
             "title": "Trip Concludes in Islamabad",
-            "hotel": "—",
+           
             "meals": "Breakfast",
             "points": [
               "Transfer to airport for return flight"
@@ -2688,7 +2607,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 01",
           title: "Arrive Islamabad",
-          hotel: "Hotel/Guest House Islamabad",
+         
           meals: "Dinner",
           points: [
             "Transfer to hotel/guest house on arrival",
@@ -2699,7 +2618,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 02",
           title: "Fly to Skardu",
-          hotel: "Masherbrum Hotel or similar",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Weather permitting: scenic flight to Skardu, seeing Nanga Parbat & K2",
@@ -2710,7 +2629,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 03",
           title: "Explore Skardu & Prepare for Trek",
-          hotel: "Masherbrum Hotel",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek preparations and check-in at Skardu hotel",
@@ -2721,7 +2640,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 04",
           title: "Drive to Askole (3000m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Jeep ride along Shigar & Braldu Valleys to Askole",
@@ -2732,7 +2651,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 05",
           title: "Trek to Jula (3200m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Commence trek towards Jhola, cross Biafo Glacier snout",
@@ -2743,7 +2662,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 06",
           title: "Trek to Payu (3450m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek along riverside trails with views of Masherbrum Group",
@@ -2754,7 +2673,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 07",
           title: "Rest Day at Payu",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Rest and prepare for glacier trek",
@@ -2765,7 +2684,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 08",
           title: "Trek to Khoburche (3930m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Approach glacier and navigate moraine trails",
@@ -2776,7 +2695,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 09",
           title: "Trek to Urdukas (4050m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Easier day with trail along Baltoro Glacier",
@@ -2787,7 +2706,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 10",
           title: "Trek to Goro II (4380m)",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cross rugged glacier terrain to Goro II",
@@ -2797,7 +2716,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 11",
           title: "Trek to Concordia (4650m)",
-          hotel: "Camp",
+        
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Trek into Concordia with first views of K2 (weather permitting)",
@@ -2808,7 +2727,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 12",
           title: "Optional Broad Peak & K2 Base Camp",
-          hotel: "Camp at Concordia",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Full-day excursion to K2 Base Camp and Gilkey Memorial",
@@ -2818,7 +2737,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 13",
           title: "Return Trek: Goro II (4100m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Descend from Concordia to Goro II",
@@ -2828,7 +2747,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 14",
           title: "Trek to Khoburche (3795m) via Urdukas",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Continue descent, camp at Khoburche"
@@ -2837,7 +2756,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 15",
           title: "Trek to Payu (3450m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cross Baltoro to north side beneath Uli Biaho Towers",
@@ -2847,7 +2766,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 16",
           title: "Trek via Panma Valley to Korofon",
-          hotel: "Camp",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Follow Braldu River downstream to Jhola/Korofon",
@@ -2857,7 +2776,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 17",
           title: "Final Trek to Askole (3000m)",
-          hotel: "Camp",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Complete trek and farewell to porters",
@@ -2867,7 +2786,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 18",
           title: "Drive to Skardu (2450m)",
-          hotel: "Hotel in Skardu",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Drive through Shigar Valley",
@@ -2878,7 +2797,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 19",
           title: "Fly to Islamabad",
-          hotel: "Invite Inn Guest House",
+          
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Weather permitting: flight to Islamabad",
@@ -2889,7 +2808,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 20",
           title: "Drive / Contingency Day",
-          hotel: "Invite Inn Guest House",
+         
           meals: "Breakfast / Lunch / Dinner",
           points: [
             "Cushion day in case of delays, weather, or health issues",
@@ -2899,7 +2818,7 @@ export const itineraries: Record<string, any> = {
         {
           day: "Day 21",
           title: "Trip Concludes in Islamabad",
-          hotel: "—",
+        
           meals: "Breakfast",
           points: [
             "Transfer to airport for return flight"
@@ -2912,7 +2831,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 01",
     "title": "Arrive Islamabad",
-    "hotel": "Hotel/Guest House Islamabad",
+   
     "meals": "Dinner",
     "points": [
       "Transfer to hotel/guest house on arrival",
@@ -2923,7 +2842,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 02",
     "title": "Drive to Chilas (480 km, 10-12 hrs)",
-    "hotel": "Shangri-La Indus View Hotel / Panorama Hotel",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Drive from Islamabad to Chilas via Karakoram Highway",
@@ -2934,7 +2853,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 03",
     "title": "Drive to Skardu from Chilas (275 km, 7-8 hrs)",
-    "hotel": "Masherbrum Hotel",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Drive through the Karakoram Highway with spectacular views of Nanga Parbat",
@@ -2945,7 +2864,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 04",
     "title": "Drive to Askole (3000m, 7-8 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Jeep ride along Shigar and Braldu Valleys to Askole",
@@ -2956,7 +2875,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 05",
     "title": "Trek to Jula (3200m, 6 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Commence trek towards Jhola, cross Biafo Glacier snout",
@@ -2967,7 +2886,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 06",
     "title": "Trek to Payu (3450m, 7-8 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Trek along riverside trails with views of Masherbrum Group",
@@ -2978,7 +2897,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 07",
     "title": "Rest Day at Payu",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Rest and prepare for glacier trek",
@@ -2989,7 +2908,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 08",
     "title": "Trek to Khoburche (3930m, 7-8 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Approach glacier and navigate moraine trails",
@@ -3000,7 +2919,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 09",
     "title": "Trek to Urdukas (4050m, 3-4 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Easier day with trail along Baltoro Glacier",
@@ -3011,7 +2930,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 10",
     "title": "Trek to Goro II (4380m, 6-7 hrs)",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Cross rugged glacier terrain to Goro II",
@@ -3021,7 +2940,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 11",
     "title": "Trek to Concordia (4650m, 5-6 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Trek into Concordia with first views of K2",
@@ -3032,7 +2951,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 12",
     "title": "Optional Broad Peak & K2 Base Camp",
-    "hotel": "Camp at Concordia",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Full-day excursion to K2 Base Camp and Gilkey Memorial",
@@ -3042,7 +2961,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 13",
     "title": "Return Trek: Goro II (4100m)",
-    "hotel": "Camp",
+  
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Descend from Concordia to Goro II",
@@ -3052,7 +2971,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 14",
     "title": "Trek to Khoburche (3795m) via Urdukas",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Continue descent, camp at Khoburche"
@@ -3061,7 +2980,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 15",
     "title": "Trek to Payu (3450m, 8-10 hrs)",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Cross Baltoro to north side beneath Uli Biaho Towers",
@@ -3071,7 +2990,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 16",
     "title": "Trek via Panma Valley to Korofon",
-    "hotel": "Camp",
+    
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Follow Braldu River downstream to Jhola/Korofon",
@@ -3081,7 +3000,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 17",
     "title": "Final Trek to Askole (3000m, 3-4 hrs)",
-    "hotel": "Camp",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Complete trek and farewell to porters",
@@ -3091,7 +3010,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 18",
     "title": "Drive to Skardu (2450m, 5-6 hrs)",
-    "hotel": "Hotel in Skardu",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Drive through Shigar Valley",
@@ -3102,7 +3021,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 19",
     "title": "Drive to Islamabad via Chilas (8-10 hrs)",
-    "hotel": "Invite Inn Guest House",
+   
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Drive from Skardu to Chilas, then Islamabad",
@@ -3113,7 +3032,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 20",
     "title": "Contingency / Cushion Day",
-    "hotel": "Invite Inn Guest House",
+  
     "meals": "Breakfast / Lunch / Dinner",
     "points": [
       "Extra day for weather, health, or travel delays",
@@ -3123,7 +3042,7 @@ export const itineraries: Record<string, any> = {
   {
     "day": "Day 21",
     "title": "Trip Concludes in Islamabad",
-    "hotel": "—",
+
     "meals": "Breakfast",
     "points": [
       "Transfer to airport for return flight"
@@ -3137,7 +3056,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 01",
             "title": "Arrive Islamabad",
-            "hotel": "Hotel/Guest House Islamabad",
+           
             "meals": "Dinner",
             "points": [
               "Transfer to hotel/guest house on arrival",
@@ -3148,7 +3067,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 02",
             "title": "Fly to Skardu (weather permitting) or Drive to Chilas",
-            "hotel": "Masherbrum Hotel / Chilas Hotel",
+           
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Weather permitting, fly from Islamabad to Skardu (see Nanga Parbat & K2 from air)",
@@ -3159,7 +3078,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 03",
             "title": "Drive to Skardu from Chilas (if flown already, optional local sightseeing)",
-            "hotel": "Masherbrum Hotel",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "If flown, day for preparations and optional Kachura Lake visit",
@@ -3170,7 +3089,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 04",
             "title": "Drive to Askole (3000m, 7-8 hrs)",
-            "hotel": "Camp",
+           
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Jeep ride along Shigar and Braldu Valleys to Askole",
@@ -3181,7 +3100,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 05",
             "title": "Trek to Jula (3200m, 6 hrs)",
-            "hotel": "Camp",
+         
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Commence trek towards Jhola, cross Biafo Glacier snout",
@@ -3192,7 +3111,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 06",
             "title": "Trek to Payu (3450m, 7-8 hrs)",
-            "hotel": "Camp",
+        
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Trek along riverside trails with views of Masherbrum Group",
@@ -3203,7 +3122,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 07",
             "title": "Rest Day at Payu",
-            "hotel": "Camp",
+          
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Rest and prepare for glacier trek",
@@ -3214,7 +3133,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 08",
             "title": "Trek to Khoburche (3930m, 7-8 hrs)",
-            "hotel": "Camp",
+         
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Approach glacier and navigate moraine trails",
@@ -3225,7 +3144,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 09",
             "title": "Trek to Urdukas (4050m, 3-4 hrs)",
-            "hotel": "Camp",
+          
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Easier day with trail along Baltoro Glacier",
@@ -3236,7 +3155,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 10",
             "title": "Trek to Goro II (4380m, 6-7 hrs)",
-            "hotel": "Camp",
+           
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Cross rugged glacier terrain to Goro II",
@@ -3246,7 +3165,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 11",
             "title": "Trek to Concordia (4650m, 5-6 hrs)",
-            "hotel": "Camp",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Trek into Concordia with first views of K2",
@@ -3257,7 +3176,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 12",
             "title": "Optional Broad Peak & K2 Base Camp",
-            "hotel": "Camp at Concordia",
+         
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Full-day excursion to K2 Base Camp and Gilkey Memorial",
@@ -3267,7 +3186,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 13",
             "title": "Return Trek: Goro II (4100m)",
-            "hotel": "Camp",
+           
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Descend from Concordia to Goro II",
@@ -3277,7 +3196,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 14",
             "title": "Trek to Khoburche (3795m) via Urdukas",
-            "hotel": "Camp",
+         
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Continue descent, camp at Khoburche"
@@ -3286,7 +3205,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 15",
             "title": "Trek to Payu (3450m, 8-10 hrs)",
-            "hotel": "Camp",
+           
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Cross Baltoro to north side beneath Uli Biaho Towers",
@@ -3296,7 +3215,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 16",
             "title": "Trek via Panma Valley to Korofon",
-            "hotel": "Camp",
+          
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Follow Braldu River downstream to Jhola/Korofon",
@@ -3306,7 +3225,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 17",
             "title": "Final Trek to Askole (3000m, 3-4 hrs)",
-            "hotel": "Camp",
+  
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Complete trek and farewell to porters",
@@ -3316,7 +3235,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 18",
             "title": "Drive to Skardu (2450m, 5-6 hrs)",
-            "hotel": "Hotel in Skardu",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Drive through Shigar Valley",
@@ -3327,7 +3246,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 19",
             "title": "Fly to Islamabad (weather permitting) or Drive via Chilas",
-            "hotel": "Invite Inn Guest House",
+            
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Weather permitting, fly to Islamabad and transfer to hotel",
@@ -3338,7 +3257,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 20",
             "title": "Contingency / Cushion Day",
-            "hotel": "Invite Inn Guest House",
+         
             "meals": "Breakfast / Lunch / Dinner",
             "points": [
               "Extra day for weather, health, or travel delays",
@@ -3348,7 +3267,7 @@ export const itineraries: Record<string, any> = {
           {
             "day": "Day 21",
             "title": "Trip Concludes in Islamabad",
-            "hotel": "—",
+           
             "meals": "Breakfast",
             "points": [
               "Transfer to airport for return flight"
@@ -3374,7 +3293,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 01",
           "title": "Arrive Islamabad",
-          "hotel": "Hotel in Islamabad",
+          
           "meals": "Dinner",
           "points": [
             "Greeted by Beyond Border Adventure Tours team at Islamabad International Airport",
@@ -3385,7 +3304,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 02",
           "title": "Fly to Gilgit (weather permitting)",
-          "hotel": "Hotel in Gilgit",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Scenic flight to Gilgit (or drive to Chilas if flight unavailable)",
@@ -3396,7 +3315,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 03",
           "title": "Gilgit – Fairy Meadows",
-          "hotel": "Huts at Fairy Meadows",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Transfer to Raikot Bridge and take jeep to Tatto village",
@@ -3408,7 +3327,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 04",
           "title": "Trek to Nanga Parbat Base Camp",
-          "hotel": "Huts at Fairy Meadows",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Early morning trek to Nanga Parbat Base Camp",
@@ -3420,7 +3339,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 05",
           "title": "Fairy Meadows – Gupis Valley",
-          "hotel": "Hotel in Gupis Valley",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Gupis Valley via Gilgit with lunch stop",
@@ -3431,7 +3350,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 06",
           "title": "Gupis – Phundar Valley",
-          "hotel": "Hotel in Phundar Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Phundar Valley with photography stops",
@@ -3442,7 +3361,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 07",
           "title": "Phundar Valley – Karimabad Hunza",
-          "hotel": "Hotel in Karimabad Hunza",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Karimabad Hunza with sightseeing",
@@ -3454,7 +3373,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 08",
           "title": "Karimabad – Hopper – Attabad Lake – Gulmit",
-          "hotel": "Hotel in Gulmit",
+    
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Baltit Fort, local bazaar, Altit Fort and village",
@@ -3466,7 +3385,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 09",
           "title": "Passu Glacier – Borith Lake – Suspension Bridges",
-          "hotel": "Hotel in Gulmit",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Hussaini Village and visit suspension bridges",
@@ -3478,7 +3397,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 10",
           "title": "Excursion – Khunjerab Pass",
-          "hotel": "Hotel in Gulmit",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Full-day excursion to Khunjerab Pass (Pakistan-China border)",
@@ -3490,7 +3409,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 11",
           "title": "Gulmit – Gilgit – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Gilgit with stops for photography and local bazaars",
@@ -3502,7 +3421,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 12",
           "title": "Skardu – Shigar Valley",
-          "hotel": "Hotel in Shigar Valley",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Shigar Valley crossing Indus River",
@@ -3513,7 +3432,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 13",
           "title": "Shigar – Khaplu Valley",
-          "hotel": "Hotel in Khaplu Valley",
+      
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Khaplu Valley with sightseeing en route",
@@ -3524,7 +3443,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 14",
           "title": "Khaplu – Skardu",
-          "hotel": "Hotel in Skardu",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Skardu with sightseeing: Kachura Lake, Kharpocho Fort, Skardu bazaars",
@@ -3534,7 +3453,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 15",
           "title": "Skardu – Deosai Plains – Rama Lake",
-          "hotel": "Hotel in Rama",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Deosai Plains with photography stops",
@@ -3545,7 +3464,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 16",
           "title": "Hike – Rama Lake",
-          "hotel": "Hotel in Rama",
+       
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Hike to Rama Lake and return in evening",
@@ -3555,7 +3474,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 17",
           "title": "Rama – Naran Valley",
-          "hotel": "Hotel in Naran Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Naran Valley via Babusar Pass",
@@ -3565,7 +3484,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 18",
           "title": "Naran – Islamabad",
-          "hotel": "Hotel in Islamabad",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Islamabad with visit to Taxila Museum",
@@ -3579,7 +3498,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 01",
           "title": "Arrive Islamabad",
-          "hotel": "Hotel in Islamabad",
+         
           "meals": "Dinner",
           "points": [
             "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -3590,7 +3509,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 02",
           "title": "Drive Islamabad – Chilas (480 km, 10-12 hrs)",
-          "hotel": "Hotel in Chilas",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Karakoram Highway",
@@ -3601,7 +3520,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 03",
           "title": "Chilas – Tatto – Fairy Meadows",
-          "hotel": "Huts at Fairy Meadows",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Jeep transfer from Raikot Bridge to Tatto village",
@@ -3613,7 +3532,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 04",
           "title": "Trek to Nanga Parbat Base Camp",
-          "hotel": "Huts at Fairy Meadows",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Morning trek to Nanga Parbat Base Camp",
@@ -3625,7 +3544,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 05",
           "title": "Fairy Meadows – Gupis Valley",
-          "hotel": "Hotel in Gupis Valley",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Gilgit with lunch stop",
@@ -3636,7 +3555,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 06",
           "title": "Gupis – Phundar Valley",
-          "hotel": "Hotel in Phundar Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Phundar Valley with photography stops",
@@ -3647,7 +3566,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 07",
           "title": "Phundar Valley – Karimabad Hunza",
-          "hotel": "Hotel in Karimabad Hunza",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive with sightseeing and lunch at Rakaposhi View Point",
@@ -3658,7 +3577,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 08",
           "title": "Karimabad – Hopper – Attabad Lake – Gulmit",
-          "hotel": "Hotel in Gulmit",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Baltit & Altit Forts and local bazaar",
@@ -3669,7 +3588,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 09",
           "title": "Passu Glacier – Borith Lake – Suspension Bridges",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Hussaini Village, visit suspension bridge",
@@ -3681,7 +3600,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 10",
           "title": "Excursion – Khunjerab Pass",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Full-day excursion to Khunjerab Pass",
@@ -3693,7 +3612,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 11",
           "title": "Gulmit – Gilgit – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Gilgit with photography & bazaar stop",
@@ -3704,7 +3623,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 12",
           "title": "Skardu – Shigar Valley",
-          "hotel": "Hotel in Shigar Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Shigar Valley",
@@ -3715,7 +3634,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 13",
           "title": "Shigar – Khaplu Valley",
-          "hotel": "Hotel in Khaplu Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Khaplu Valley",
@@ -3726,7 +3645,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 14",
           "title": "Khaplu – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Sightseeing in Skardu: Kachura Lake, Kharpocho Fort, bazaars",
@@ -3736,7 +3655,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 15",
           "title": "Skardu – Deosai Plains – Rama Lake",
-          "hotel": "Hotel in Rama",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Deosai Plains",
@@ -3747,7 +3666,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 16",
           "title": "Hike – Rama Lake",
-          "hotel": "Hotel in Rama",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Hike to Rama Lake and return in evening",
@@ -3757,7 +3676,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 17",
           "title": "Rama – Naran Valley",
-          "hotel": "Hotel in Naran Valley",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Naran Valley via Babusar Pass",
@@ -3767,7 +3686,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 18",
           "title": "Naran – Islamabad",
-          "hotel": "Hotel in Islamabad",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Islamabad with visit to Taxila Museum",
@@ -3781,7 +3700,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 01",
           "title": "Arrive Islamabad",
-          "hotel": "Hotel in Islamabad",
+         
           "meals": "Dinner",
           "points": [
             "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -3792,7 +3711,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 02",
           "title": "Fly to Gilgit (weather permitting) or Drive to Chilas",
-          "hotel": "Hotel in Gilgit / Hotel in Chilas",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Weather permitting, fly to Gilgit",
@@ -3803,7 +3722,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 03",
           "title": "Gilgit – Fairy Meadows",
-          "hotel": "Huts at Fairy Meadows",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "If flown, day for preparations and local sightseeing",
@@ -3814,7 +3733,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 04",
           "title": "Trek to Nanga Parbat Base Camp",
-          "hotel": "Huts at Fairy Meadows",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Trek to Nanga Parbat Base Camp and return",
@@ -3824,7 +3743,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 05",
           "title": "Fairy Meadows – Gupis Valley",
-          "hotel": "Hotel in Gupis Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Gilgit with lunch stop",
@@ -3834,7 +3753,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 06",
           "title": "Gupis – Phundar Valley",
-          "hotel": "Hotel in Phundar Valley",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Phundar Valley with photography stops",
@@ -3844,7 +3763,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 07",
           "title": "Phundar Valley – Karimabad Hunza",
-          "hotel": "Hotel in Karimabad Hunza",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Karimabad Hunza with sightseeing and sunset safari",
@@ -3854,7 +3773,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 08",
           "title": "Karimabad – Hopper – Attabad Lake – Gulmit",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit forts, local bazaar, Hopper Valley, boating at Attabad Lake",
@@ -3864,7 +3783,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 09",
           "title": "Passu Glacier – Borith Lake – Suspension Bridges",
-          "hotel": "Hotel in Gulmit",
+       
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Hussaini Bridge, Upper Borith, Passu Glacier, Passu village",
@@ -3874,7 +3793,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 10",
           "title": "Excursion – Khunjerab Pass",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Full-day excursion to Khunjerab Pass with wildlife and mountain views",
@@ -3884,7 +3803,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 11",
           "title": "Gulmit – Gilgit – Skardu",
-          "hotel": "Hotel in Skardu",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Gilgit, cross suspension bridge, continue to Skardu",
@@ -3894,7 +3813,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 12",
           "title": "Skardu – Shigar Valley",
-          "hotel": "Hotel in Shigar Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Shigar Fort and old mosque",
@@ -3904,7 +3823,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 13",
           "title": "Shigar – Khaplu Valley",
-          "hotel": "Hotel in Khaplu Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Khaplu Fort and explore local area",
@@ -3914,7 +3833,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 14",
           "title": "Khaplu – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Sightseeing in Skardu: Kachura Lake, Kharpocho Fort, bazaars",
@@ -3924,7 +3843,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 15",
           "title": "Skardu – Deosai Plains – Rama Lake",
-          "hotel": "Hotel in Rama",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Deosai Plains, check-in at Rama Lake hotel",
@@ -3934,7 +3853,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 16",
           "title": "Hike – Rama Lake",
-          "hotel": "Hotel in Rama",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Hike to Rama Lake and return",
@@ -3944,7 +3863,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 17",
           "title": "Rama – Naran Valley",
-          "hotel": "Hotel in Naran Valley",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Babusar Pass",
@@ -3954,7 +3873,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 18",
           "title": "Naran – Islamabad",
-          "hotel": "Hotel in Islamabad",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Taxila Museum and Islamabad sightseeing",
@@ -3980,7 +3899,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 01",
           "title": "Arrive Islamabad",
-          "hotel": "Hotel in Islamabad",
+         
           "meals": "Dinner",
           "points": [
             "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -3991,7 +3910,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 02",
           "title": "Fly to Gilgit (weather permitting)",
-          "hotel": "Hotel in Gilgit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Scenic flight to Gilgit (or drive to Chilas if flight unavailable)",
@@ -4002,7 +3921,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 03",
           "title": "Gilgit – Fairy Meadows",
-          "hotel": "Huts at Fairy Meadows",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Transfer to Raikot Bridge and take jeep to Tatto village",
@@ -4014,7 +3933,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 04",
           "title": "Trek to Nanga Parbat Base Camp",
-          "hotel": "Huts at Fairy Meadows",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Early morning trek to Nanga Parbat Base Camp",
@@ -4026,7 +3945,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 05",
           "title": "Fairy Meadows – Gupis Valley",
-          "hotel": "Hotel in Gupis Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Gupis Valley via Gilgit with lunch stop",
@@ -4037,7 +3956,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 06",
           "title": "Gupis – Phundar Valley",
-          "hotel": "Hotel in Phundar Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Phundar Valley with photography stops",
@@ -4048,7 +3967,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 07",
           "title": "Phundar Valley – Karimabad Hunza",
-          "hotel": "Hotel in Karimabad Hunza",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Karimabad Hunza with sightseeing",
@@ -4060,7 +3979,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 08",
           "title": "Karimabad – Hopper – Attabad Lake – Gulmit",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Baltit Fort, local bazaar, Altit Fort and village",
@@ -4072,7 +3991,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 09",
           "title": "Passu Glacier – Borith Lake – Suspension Bridges",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Hussaini Village and visit suspension bridges",
@@ -4084,7 +4003,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 10",
           "title": "Excursion – Khunjerab Pass",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Full-day excursion to Khunjerab Pass (Pakistan-China border)",
@@ -4096,7 +4015,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 11",
           "title": "Gulmit – Gilgit – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Gilgit with stops for photography and local bazaars",
@@ -4108,7 +4027,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 12",
           "title": "Skardu – Shigar Valley",
-          "hotel": "Hotel in Shigar Valley",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Shigar Valley crossing Indus River",
@@ -4119,7 +4038,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 13",
           "title": "Shigar – Khaplu Valley",
-          "hotel": "Hotel in Khaplu Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Khaplu Valley with sightseeing en route",
@@ -4130,7 +4049,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 14",
           "title": "Khaplu – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Skardu with sightseeing: Kachura Lake, Kharpocho Fort, Skardu bazaars",
@@ -4140,7 +4059,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 15",
           "title": "Skardu – Deosai Plains – Rama Lake",
-          "hotel": "Hotel in Rama",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Deosai Plains with photography stops",
@@ -4151,7 +4070,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 16",
           "title": "Hike – Rama Lake",
-          "hotel": "Hotel in Rama",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Hike to Rama Lake and return in evening",
@@ -4161,7 +4080,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 17",
           "title": "Rama – Naran Valley",
-          "hotel": "Hotel in Naran Valley",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Naran Valley via Babusar Pass",
@@ -4171,7 +4090,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 18",
           "title": "Naran – Islamabad",
-          "hotel": "Hotel in Islamabad",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Islamabad with visit to Taxila Museum",
@@ -4185,7 +4104,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 01",
           "title": "Arrive Islamabad",
-          "hotel": "Hotel in Islamabad",
+    
           "meals": "Dinner",
           "points": [
             "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -4196,7 +4115,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 02",
           "title": "Drive Islamabad – Chilas (480 km, 10-12 hrs)",
-          "hotel": "Hotel in Chilas",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Karakoram Highway",
@@ -4207,7 +4126,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 03",
           "title": "Chilas – Tatto – Fairy Meadows",
-          "hotel": "Huts at Fairy Meadows",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Jeep transfer from Raikot Bridge to Tatto village",
@@ -4219,7 +4138,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 04",
           "title": "Trek to Nanga Parbat Base Camp",
-          "hotel": "Huts at Fairy Meadows",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Morning trek to Nanga Parbat Base Camp",
@@ -4231,7 +4150,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 05",
           "title": "Fairy Meadows – Gupis Valley",
-          "hotel": "Hotel in Gupis Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Gilgit with lunch stop",
@@ -4242,7 +4161,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 06",
           "title": "Gupis – Phundar Valley",
-          "hotel": "Hotel in Phundar Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Phundar Valley with photography stops",
@@ -4253,7 +4172,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 07",
           "title": "Phundar Valley – Karimabad Hunza",
-          "hotel": "Hotel in Karimabad Hunza",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive with sightseeing and lunch at Rakaposhi View Point",
@@ -4264,7 +4183,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 08",
           "title": "Karimabad – Hopper – Attabad Lake – Gulmit",
-          "hotel": "Hotel in Gulmit",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Baltit & Altit Forts and local bazaar",
@@ -4275,7 +4194,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 09",
           "title": "Passu Glacier – Borith Lake – Suspension Bridges",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Hussaini Village, visit suspension bridge",
@@ -4287,7 +4206,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 10",
           "title": "Excursion – Khunjerab Pass",
-          "hotel": "Hotel in Gulmit",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Full-day excursion to Khunjerab Pass",
@@ -4299,7 +4218,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 11",
           "title": "Gulmit – Gilgit – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Gilgit with photography & bazaar stop",
@@ -4310,7 +4229,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 12",
           "title": "Skardu – Shigar Valley",
-          "hotel": "Hotel in Shigar Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Shigar Valley",
@@ -4321,7 +4240,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 13",
           "title": "Shigar – Khaplu Valley",
-          "hotel": "Hotel in Khaplu Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Khaplu Valley",
@@ -4332,7 +4251,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 14",
           "title": "Khaplu – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Sightseeing in Skardu: Kachura Lake, Kharpocho Fort, bazaars",
@@ -4342,7 +4261,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 15",
           "title": "Skardu – Deosai Plains – Rama Lake",
-          "hotel": "Hotel in Rama",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Deosai Plains",
@@ -4353,7 +4272,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 16",
           "title": "Hike – Rama Lake",
-          "hotel": "Hotel in Rama",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Hike to Rama Lake and return in evening",
@@ -4363,7 +4282,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 17",
           "title": "Rama – Naran Valley",
-          "hotel": "Hotel in Naran Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Naran Valley via Babusar Pass",
@@ -4373,7 +4292,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 18",
           "title": "Naran – Islamabad",
-          "hotel": "Hotel in Islamabad",
+        
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Islamabad with visit to Taxila Museum",
@@ -4387,7 +4306,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 01",
           "title": "Arrive Islamabad",
-          "hotel": "Hotel in Islamabad",
+         
           "meals": "Dinner",
           "points": [
             "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -4398,7 +4317,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 02",
           "title": "Fly to Gilgit (weather permitting) or Drive to Chilas",
-          "hotel": "Hotel in Gilgit / Hotel in Chilas",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Weather permitting, fly to Gilgit",
@@ -4409,7 +4328,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 03",
           "title": "Gilgit – Fairy Meadows",
-          "hotel": "Huts at Fairy Meadows",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "If flown, day for preparations and local sightseeing",
@@ -4420,7 +4339,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 04",
           "title": "Trek to Nanga Parbat Base Camp",
-          "hotel": "Huts at Fairy Meadows",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Trek to Nanga Parbat Base Camp and return",
@@ -4430,7 +4349,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 05",
           "title": "Fairy Meadows – Gupis Valley",
-          "hotel": "Hotel in Gupis Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Gilgit with lunch stop",
@@ -4440,7 +4359,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 06",
           "title": "Gupis – Phundar Valley",
-          "hotel": "Hotel in Phundar Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Phundar Valley with photography stops",
@@ -4450,7 +4369,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 07",
           "title": "Phundar Valley – Karimabad Hunza",
-          "hotel": "Hotel in Karimabad Hunza",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Karimabad Hunza with sightseeing and sunset safari",
@@ -4460,7 +4379,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 08",
           "title": "Karimabad – Hopper – Attabad Lake – Gulmit",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit forts, local bazaar, Hopper Valley, boating at Attabad Lake",
@@ -4470,7 +4389,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 09",
           "title": "Passu Glacier – Borith Lake – Suspension Bridges",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Hussaini Bridge, Upper Borith, Passu Glacier, Passu village",
@@ -4480,7 +4399,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 10",
           "title": "Excursion – Khunjerab Pass",
-          "hotel": "Hotel in Gulmit",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Full-day excursion to Khunjerab Pass with wildlife and mountain views",
@@ -4490,7 +4409,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 11",
           "title": "Gulmit – Gilgit – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive to Gilgit, cross suspension bridge, continue to Skardu",
@@ -4500,7 +4419,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 12",
           "title": "Skardu – Shigar Valley",
-          "hotel": "Hotel in Shigar Valley",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Shigar Fort and old mosque",
@@ -4510,7 +4429,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 13",
           "title": "Shigar – Khaplu Valley",
-          "hotel": "Hotel in Khaplu Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Khaplu Fort and explore local area",
@@ -4520,7 +4439,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 14",
           "title": "Khaplu – Skardu",
-          "hotel": "Hotel in Skardu",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Sightseeing in Skardu: Kachura Lake, Kharpocho Fort, bazaars",
@@ -4530,7 +4449,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 15",
           "title": "Skardu – Deosai Plains – Rama Lake",
-          "hotel": "Hotel in Rama",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Deosai Plains, check-in at Rama Lake hotel",
@@ -4540,7 +4459,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 16",
           "title": "Hike – Rama Lake",
-          "hotel": "Hotel in Rama",
+          
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Hike to Rama Lake and return",
@@ -4550,7 +4469,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 17",
           "title": "Rama – Naran Valley",
-          "hotel": "Hotel in Naran Valley",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Drive via Babusar Pass",
@@ -4560,7 +4479,7 @@ export const itineraries: Record<string, any> = {
         {
           "day": "Day 18",
           "title": "Naran – Islamabad",
-          "hotel": "Hotel in Islamabad",
+         
           "meals": "Breakfast / Lunch / Dinner",
           "points": [
             "Visit Taxila Museum and Islamabad sightseeing",
@@ -4585,7 +4504,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 01",
         "title": "Arrive Kashgar",
-        "hotel": "Hotel in Kashgar",
+       
         "meals": "Dinner",
         "points": [
           "Greeted by Greeted by Beyond Borders Adventure Tours team at Kashgar International Airport",
@@ -4596,7 +4515,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 02",
         "title": "Kashgar – Sunday Market & City Tour",
-        "hotel": "Hotel in Kashgar",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit the famous Sunday Market with carpets, foods, livestock, and more",
@@ -4607,7 +4526,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Kashgar – Karakul – Tashkurgan",
-        "hotel": "Hotel in Tashkurgan",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive on Karakorum Highway to Karakul Lake",
@@ -4619,7 +4538,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Tashkurgan – Gulmit Hunza Valley",
-        "hotel": "Hotel in Gulmit Upper Hunza Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Complete customs and immigration formalities",
@@ -4632,7 +4551,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Gulmit – Borith Lake – Suspension Bridges",
-        "hotel": "Hotel in Gulmit Upper Hunza Valley",
+      
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Hussaini Village and visit suspension bridges",
@@ -4644,7 +4563,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Excursion – Chapursan Valley",
-        "hotel": "Hotel in Gulmit",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Full day exploration of Chapursan Valley",
@@ -4656,7 +4575,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 07",
         "title": "Exploring – Gulmit Upper Hunza Valley",
-        "hotel": "Hotel in Gulmit Upper Hunza",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Old House (700 years), Cultural Museum, Gulmit Old Town, Community School",
@@ -4667,7 +4586,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 08",
         "title": "Gulmit – Attabad Lake – Hopper Valley – Karimabad Hunza",
-        "hotel": "Hotel in Karimabad Hunza Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Boating at Attabad Lake",
@@ -4679,7 +4598,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 09",
         "title": "Karimabad – Baltit – Altit Forts – Duiker",
-        "hotel": "Hotel in Karimabad Hunza",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit historical Baltit and Altit Forts",
@@ -4690,7 +4609,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 10",
         "title": "Karimabad Hunza – Gilgit",
-        "hotel": "Hotel in Gilgit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Gilgit with photography stops at Rakaposhi Viewpoint",
@@ -4702,7 +4621,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 11",
         "title": "Gilgit – Fairy Meadows",
-        "hotel": "Huts at Fairy Meadows",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Transfer to Raikot Bridge and jeep to Tatto village",
@@ -4714,7 +4633,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 12",
         "title": "Fairy Meadows – Naran",
-        "hotel": "Hotel in Naran",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Naran with photography and lunch stops",
@@ -4725,7 +4644,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 13",
         "title": "Naran – Islamabad",
-        "hotel": "Hotel in Islamabad",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Islamabad with visit to Taxila Museum",
@@ -4736,7 +4655,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 14",
         "title": "Islamabad Sightseeing & Departure",
-        "hotel": "Hotel in Islamabad",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Sightseeing: Shah Faisal Mosque, Pakistan Monument, Daman-e-Koh",
@@ -4749,7 +4668,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 01",
         "title": "Arrive Kashgar",
-        "hotel": "Hotel in Kashgar",
+        
         "meals": "Dinner",
         "points": [
           "Greeted by Greeted by Beyond Borders Adventure Tours team at Kashgar International Airport",
@@ -4760,7 +4679,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 02",
         "title": "Kashgar – Sunday Market & City Tour",
-        "hotel": "Hotel in Kashgar",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Sunday Market and explore Eidgah Mosque, Abakh Hoja Tomb, and old town",
@@ -4770,7 +4689,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Drive Kashgar – Karakul – Tashkurgan",
-        "hotel": "Hotel in Tashkurgan",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive on Karakorum Highway to Karakul Lake",
@@ -4782,7 +4701,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Tashkurgan – Gulmit Hunza Valley",
-        "hotel": "Hotel in Gulmit Upper Hunza Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Customs & immigration, drive via Khunjerab Pass to Sost",
@@ -4793,7 +4712,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Gulmit – Borith Lake – Suspension Bridges",
-        "hotel": "Hotel in Gulmit Upper Hunza Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Hussaini Suspension Bridge and Passu Glacier viewpoint",
@@ -4803,7 +4722,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Excursion – Chapursan Valley",
-        "hotel": "Hotel in Gulmit",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Explore Chapursan Valley with horse & yak riding and freestyle polo match",
@@ -4813,7 +4732,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 07",
         "title": "Gulmit Upper Hunza Valley Exploration",
-        "hotel": "Hotel in Gulmit Upper Hunza",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Old House, Cultural Museum, Old Town, Community School",
@@ -4824,7 +4743,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 08",
         "title": "Gulmit – Attabad Lake – Hopper – Karimabad Hunza",
-        "hotel": "Hotel in Karimabad Hunza Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Boating at Attabad Lake, hike to Hopper Glacier, drive to Karimabad",
@@ -4834,7 +4753,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 09",
         "title": "Passu Glacier – Borith Lake – Suspension Bridges",
-        "hotel": "Hotel in Gulmit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Hussaini Bridge, Upper Borith, Passu Glacier, Passu Village",
@@ -4844,7 +4763,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 10",
         "title": "Excursion – Khunjerab Pass",
-        "hotel": "Hotel in Gulmit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Full-day trip to Khunjerab Pass and sightseeing",
@@ -4854,7 +4773,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 11",
         "title": "Gulmit – Gilgit – Fairy Meadows",
-        "hotel": "Huts at Fairy Meadows",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Gilgit, then jeep to Tatto village and trek to Fairy Meadows",
@@ -4864,7 +4783,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 12",
         "title": "Fairy Meadows – Naran",
-        "hotel": "Hotel in Naran",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Naran with photography and lunch stops",
@@ -4874,7 +4793,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 13",
         "title": "Naran – Islamabad",
-        "hotel": "Hotel in Islamabad",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Islamabad via Taxila Museum",
@@ -4884,7 +4803,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 14",
         "title": "Islamabad Sightseeing & Departure",
-        "hotel": "Hotel in Islamabad",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Sightseeing: Shah Faisal Mosque, Pakistan Monument, Daman-e-Koh",
@@ -4896,7 +4815,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 01",
         "title": "Arrive Kashgar",
-        "hotel": "Hotel in Kashgar",
+       
         "meals": "Dinner",
         "points": [
           "Greeted at airport, transfer to hotel",
@@ -4906,7 +4825,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 02",
         "title": "Sunday Market & City Tour",
-        "hotel": "Hotel in Kashgar",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Sunday Market and old town",
@@ -4916,7 +4835,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Kashgar – Karakul – Tashkurgan",
-        "hotel": "Hotel in Tashkurgan",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive Karakorum Highway to Karakul Lake, photography",
@@ -4926,7 +4845,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Tashkurgan – Gulmit Hunza",
-        "hotel": "Hotel in Gulmit",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Customs & immigration, drive via Khunjerab Pass",
@@ -4937,7 +4856,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Gulmit – Borith Lake – Passu",
-        "hotel": "Hotel in Gulmit",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Hussaini Bridge, Passu Glacier viewpoint, Passu village",
@@ -4947,7 +4866,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Chapursan Valley Excursion",
-        "hotel": "Hotel in Gulmit",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Explore Chapursan Valley and polo match",
@@ -4957,7 +4876,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 07",
         "title": "Gulmit Exploration",
-        "hotel": "Hotel in Gulmit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit cultural sites, old house, museum",
@@ -4967,7 +4886,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 08",
         "title": "Gulmit – Attabad – Hopper – Karimabad",
-        "hotel": "Hotel in Karimabad Hunza",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Boating at Attabad Lake, hike to Hopper Glacier, drive to Karimabad",
@@ -4977,7 +4896,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 09",
         "title": "Passu Glacier & Borith Lake",
-        "hotel": "Hotel in Gulmit",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Hussaini Bridge, Upper Borith, Passu Village",
@@ -4987,7 +4906,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 10",
         "title": "Khunjerab Pass Excursion",
-        "hotel": "Hotel in Gulmit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Excursion to Khunjerab Pass",
@@ -4997,7 +4916,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 11",
         "title": "Gulmit – Gilgit – Fairy Meadows",
-        "hotel": "Huts at Fairy Meadows",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Gilgit, jeep to Tatto, trek to Fairy Meadows",
@@ -5007,7 +4926,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 12",
         "title": "Fairy Meadows – Naran",
-        "hotel": "Hotel in Naran",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Naran, overnight stay"
@@ -5016,7 +4935,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 13",
         "title": "Naran – Islamabad",
-        "hotel": "Hotel in Islamabad",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Taxila Museum en route",
@@ -5026,7 +4945,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 14",
         "title": "Islamabad Sightseeing & Departure",
-        "hotel": "Hotel in Islamabad",
+      
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Sightseeing and farewell dinner",
@@ -5036,6 +4955,7 @@ export const itineraries: Record<string, any> = {
     ]
   }
 },
+
 
 "skardu-baltistan-valley-tour": {
   "title": "Skardu Baltistan Valley Tours",
@@ -5051,7 +4971,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 01",
         "title": "Arrive Islamabad",
-        "hotel": "Hotel in Islamabad",
+        
         "meals": "Dinner",
         "points": [
           "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -5062,7 +4982,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 02",
         "title": "Islamabad – Skardu",
-        "hotel": "Hotel in Skardu",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Morning scenic flight to Skardu, capital of Baltistan Region",
@@ -5075,7 +4995,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Skardu – Shigar Valley",
-        "hotel": "Hotel in Shigar Valley",
+      
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Shigar Valley, crossing Indus River and sandy desert land",
@@ -5086,7 +5006,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Shigar – Khaplu Valley",
-        "hotel": "Hotel in Khaplu Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive 3-4 hours to Khaplu Valley",
@@ -5098,7 +5018,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Khaplu – Hushe Valley",
-        "hotel": "Hotel in Khaplu Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive towards Hushe Valley, one of the highest villages (3050m)",
@@ -5110,7 +5030,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Khaplu Valley – Skardu",
-        "hotel": "Hotel in Skardu",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive 3-4 hours to Skardu",
@@ -5121,7 +5041,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 07",
         "title": "Skardu – Free / Optional Excursion",
-        "hotel": "Hotel in Skardu",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Day free for personal sightseeing or optional excursions",
@@ -5131,7 +5051,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 08",
         "title": "Skardu Baltistan – Karimabad Hunza Valley",
-        "hotel": "Hotel in Karimabad Hunza Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive along River Indus via Karakoram Highway",
@@ -5144,7 +5064,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 09",
         "title": "Karimabad Hunza – Baltit & Altit Forts",
-        "hotel": "Hotel in Karimabad Hunza",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Baltit Fort and local bazaar",
@@ -5156,7 +5076,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 10",
         "title": "Karimabad – Hopper – Attabad – Gulmit",
-        "hotel": "Hotel in Gulmit Upper Hunza Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Hopper Valley, sightseeing",
@@ -5168,7 +5088,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 11",
         "title": "Gulmit – Borith Lake – Suspension Bridges",
-        "hotel": "Hotel in Gulmit Upper Hunza Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Hussaini Village and visit suspension bridges",
@@ -5180,7 +5100,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 12",
         "title": "Excursion – Khunjerab Pass",
-        "hotel": "Hotel in Gulmit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Full-day excursion to Khunjerab Pass (Pakistan-China border, 4733m)",
@@ -5192,7 +5112,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 13",
         "title": "Gulmit – Besham",
-        "hotel": "Hotel in Besham",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Besham with photography and lunch stops",
@@ -5203,7 +5123,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 14",
         "title": "Besham – Islamabad & Departure",
-        "hotel": "Hotel in Islamabad",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Islamabad, visit Taxila Museum en-route",
@@ -5216,7 +5136,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 01",
         "title": "Arrive Islamabad",
-        "hotel": "Hotel in Islamabad",
+       
         "meals": "Dinner",
         "points": [
           "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -5227,7 +5147,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 02",
         "title": "Drive Islamabad – Skardu via Karakoram Highway",
-        "hotel": "Hotel in Skardu",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Early morning drive via Karakoram Highway to Skardu",
@@ -5238,7 +5158,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Skardu – Shigar Valley",
-        "hotel": "Hotel in Shigar Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Shigar Valley, cross Indus River",
@@ -5249,7 +5169,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Shigar – Khaplu Valley",
-        "hotel": "Hotel in Khaplu Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive 3-4 hours to Khaplu Valley",
@@ -5260,7 +5180,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Khaplu – Hushe Valley",
-        "hotel": "Hotel in Khaplu Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Hushe Valley, hiking, village visit, explore local lifestyle",
@@ -5271,7 +5191,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Khaplu Valley – Skardu",
-        "hotel": "Hotel in Skardu",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Skardu, free afternoon for shopping/sightseeing",
@@ -5281,7 +5201,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 07",
         "title": "Skardu – Karimabad Hunza Valley via KKH",
-        "hotel": "Hotel in Karimabad Hunza",
+      
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive along River Indus via Karakoram Highway",
@@ -5293,7 +5213,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 08",
         "title": "Karimabad – Baltit & Altit Forts – Hopper – Attabad Lake – Gulmit",
-        "hotel": "Hotel in Gulmit Upper Hunza Valley",
+      
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Baltit & Altit Forts and local bazaar",
@@ -5304,7 +5224,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 09",
         "title": "Gulmit – Borith Lake – Suspension Bridges",
-        "hotel": "Hotel in Gulmit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Hussaini Bridge, Upper Borith, Passu Glacier, Passu Village",
@@ -5315,7 +5235,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 10",
         "title": "Excursion – Khunjerab Pass",
-        "hotel": "Hotel in Gulmit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Full-day excursion to Khunjerab Pass, see mountains & wildlife",
@@ -5325,7 +5245,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 11",
         "title": "Gulmit – Besham",
-        "hotel": "Hotel in Besham",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Besham with photography and lunch stops",
@@ -5335,7 +5255,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 12",
         "title": "Besham – Islamabad & Departure",
-        "hotel": "Hotel in Islamabad",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Islamabad, visit Taxila Museum",
@@ -5348,7 +5268,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 01",
         "title": "Arrive Islamabad",
-        "hotel": "Hotel in Islamabad",
+       
         "meals": "Dinner",
         "points": [
           "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -5359,7 +5279,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 02",
         "title": "Fly to Skardu or Drive via Karakoram Highway",
-        "hotel": "Hotel in Skardu",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Morning flight to Skardu if available",
@@ -5370,7 +5290,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Skardu – Shigar Valley",
-        "hotel": "Hotel in Shigar Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Shigar Valley, cross Indus River",
@@ -5381,7 +5301,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Shigar – Khaplu Valley",
-        "hotel": "Hotel in Khaplu Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Khaplu Valley, visit Khaplu Fort, traditional houses, cherry blossoms",
@@ -5391,7 +5311,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Khaplu – Hushe Valley",
-        "hotel": "Hotel in Khaplu Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Hushe Valley, hiking, explore local lifestyle",
@@ -5401,7 +5321,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Khaplu Valley – Skardu",
-        "hotel": "Hotel in Skardu",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Skardu, free afternoon for sightseeing",
@@ -5411,7 +5331,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 07",
         "title": "Skardu – Karimabad Hunza Valley",
-        "hotel": "Hotel in Karimabad Hunza",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive along Karakoram Highway with scenic stops",
@@ -5422,7 +5342,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 08",
         "title": "Karimabad – Baltit & Altit Forts – Hopper – Attabad Lake – Gulmit",
-        "hotel": "Hotel in Gulmit Upper Hunza Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Baltit & Altit Forts and local bazaar",
@@ -5433,7 +5353,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 09",
         "title": "Gulmit – Borith Lake – Suspension Bridges",
-        "hotel": "Hotel in Gulmit",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Hussaini Bridge, Upper Borith, Passu Glacier, Passu Village",
@@ -5443,7 +5363,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 10",
         "title": "Excursion – Khunjerab Pass",
-        "hotel": "Hotel in Gulmit",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Full-day excursion to Khunjerab Pass, mountains & wildlife",
@@ -5453,7 +5373,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 11",
         "title": "Gulmit – Besham",
-        "hotel": "Hotel in Besham",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Besham with photography and lunch stops",
@@ -5463,7 +5383,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 12",
         "title": "Besham – Islamabad & Departure",
-        "hotel": "Hotel in Islamabad",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Islamabad, visit Taxila Museum",
@@ -5513,7 +5433,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Swat – Kalam Valley",
-        "hotel": "Hotel in Kalam Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Departure for Kalam Upper Swat Valley after breakfast",
@@ -5526,7 +5446,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Kalam Valley Excursion",
-        "hotel": "Hotel in Kalam Valley",
+    
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Jeep excursion to Mahodand Lake (20 km from Kalam)",
@@ -5537,7 +5457,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Kalam – Miandam",
-        "hotel": "Hotel in Miandam",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Departure for Malam Jabba after breakfast",
@@ -5548,7 +5468,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Miandam – Islamabad & Departure",
-        "hotel": "Hotel in Islamabad",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive back to Islamabad after breakfast",
@@ -5562,7 +5482,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 01",
         "title": "Arrive Islamabad",
-        "hotel": "Hotel in Islamabad",
+       
         "meals": "Dinner",
         "points": [
           "Greeted by Beyond Borders Adventure Tours team at Islamabad International Airport",
@@ -5573,7 +5493,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 02",
         "title": "Drive Islamabad – Swat Valley",
-        "hotel": "Hotel in Saidu Sharif Swat Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Swat Valley after breakfast",
@@ -5585,7 +5505,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Swat – Kalam Valley",
-        "hotel": "Hotel in Kalam Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Kalam Upper Swat Valley",
@@ -5598,7 +5518,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Kalam Valley Excursion",
-        "hotel": "Hotel in Kalam Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Jeep excursion to Mahodand Lake",
@@ -5609,7 +5529,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Kalam – Miandam",
-        "hotel": "Hotel in Miandam",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Malam Jabba for chair lift ride or meadow walk",
@@ -5619,7 +5539,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Miandam – Islamabad & Departure",
-        "hotel": "Hotel in Islamabad",
+      
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive back to Islamabad",
@@ -5632,7 +5552,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 01",
         "title": "Arrive Islamabad",
-        "hotel": "Hotel in Islamabad",
+       
         "meals": "Dinner",
         "points": [
           "Greeted at Islamabad International Airport",
@@ -5643,7 +5563,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 02",
         "title": "Fly or Drive Islamabad – Swat Valley",
-        "hotel": "Hotel in Saidu Sharif Swat Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Option to fly or drive to Swat Valley",
@@ -5655,7 +5575,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 03",
         "title": "Swat – Kalam Valley",
-        "hotel": "Hotel in Kalam Valley",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Kalam Valley with lunch stop in Bahrain",
@@ -5666,7 +5586,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 04",
         "title": "Kalam Valley Excursion",
-        "hotel": "Hotel in Kalam Valley",
+        
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Jeep excursion to Mahodand Lake and Ushu Valley exploration",
@@ -5676,7 +5596,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 05",
         "title": "Kalam – Miandam",
-        "hotel": "Hotel in Miandam",
+    
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Visit Malam Jabba chair lift or meadow walk",
@@ -5686,7 +5606,7 @@ export const itineraries: Record<string, any> = {
       {
         "day": "Day 06",
         "title": "Miandam – Islamabad & Departure",
-        "hotel": "Hotel in Islamabad",
+       
         "meals": "Breakfast / Lunch / Dinner",
         "points": [
           "Drive to Islamabad, city tour: Shah Faisal Mosque, Lok Versa, Pakistan Monument, Saidpur Village, Daman-e-Koh",
@@ -5696,34 +5616,4 @@ export const itineraries: Record<string, any> = {
     ]
   }
 }
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
